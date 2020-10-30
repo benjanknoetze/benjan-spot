@@ -27,7 +27,7 @@ export default class MyForm extends React.Component {
 		<input className="formInput" type="email" name="email" /> <br></br>
         <label className="formLabel mt-2">Message:</label> <br></br>
 		<input className="formInput pb-5" type="text" name="message" /> <br></br>
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button id="submitButton">Submit</button>}
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
 	  <style global jsx>{`
