@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/contact": "pages/contact.js",
-  "/people": "pages/people.js",
-  "/design": "pages/design.js",
   "/development": "pages/development.js",
   "/": "pages/index.js"
 }

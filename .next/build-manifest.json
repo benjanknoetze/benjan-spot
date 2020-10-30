@@ -34,20 +34,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/contact.js"
     ],
-    "/design": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/design.js"
-    ],
     "/development": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/development.js"
-    ],
-    "/people": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/people.js"
     ]
   },
   "ampFirstPages": []

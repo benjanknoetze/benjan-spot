@@ -3,57 +3,6 @@
 import { Button } from 'react-bootstrap'
 import { FormspreeProvider } from '@formspree/react';
 
-/*  class ContactForm extends React.Component {
-	constructor(props) {
-	  super(props);
-	  this.state = {
-		name: '',
-		email: '',
-		message: ''
-	  }
-	}
-
-	render() {
-	  return(
-		<div className="formContainer p-4">
-		<h5 className="Heading mb-4">Get in touch</h5>
-		  <form id="contact-form">
-			<div className="form-group">
-			  <label htmlFor="name" className="contactText">Name</label>
-			  <input type="text" className="form-control" value={this.state.name} />
-			</div>
-			<div className="form-group">
-			  <label htmlFor="exampleInputEmail1" className="contactText">Email address</label>
-			  <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} />
-			</div>
-			<div className="form-group">
-			  <label htmlFor="message" className="contactText">Message</label>
-			  <textarea className="form-control" rows="5" value={this.state.message} />
-			</div>
-			<Button type="submit" className="submitButton">Submit</Button>
-		  </form>
-		  <style global jsx>{`
-			.Heading {
-				color: #0d0411;
-				font-family: Allerta, sans-serif;
-				font-weight: 800;
-			}
-			.contactText {
-				color: #0d0411;
-				font-family: Bitter, serif;
-			}
-			.submitButton {
-				width: 110px;
-			}
-			`}</style>
-		</div>
-	  );
-	}
-  }
-  
-  export default ContactForm;
- */
-
 export default class MyForm extends React.Component {
 	constructor(props) {
 	  super(props);
@@ -71,8 +20,8 @@ export default class MyForm extends React.Component {
 		<form 
 		  className="p-3"
 		  onSubmit={this.submitForm}
-		  action="https://formspree.io/f/xrgoqvaq" 
-		  method="POST"
+		  action="https://formspree.io/f/xrgoqvaq"
+          method="POST"
 		>
 		  <label className="formLabel">Email:</label>
 		  <br></br>
