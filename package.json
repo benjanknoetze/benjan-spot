@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@formspree/react": "^2.2.2",
+    "@formspree/react": "^2.2.3",
     "axios": "^0.20.0",
     "babel-runtime": "^6.26.0",
     "cors": "^2.8.5",
