@@ -4,10 +4,10 @@ import { Row, Col, Card, Button } from 'react-bootstrap'
 import MyForm from './ContactForm' //Contact form component
 
 const ContactBody = () => (
-	<div className="bodyContainer pl-5 pr-5">
-		<Row className="pt-5 pl-5 pr-5">
+	<div className="bodyContainer pl-2 pr-2">
+		<Row className="pt-5 pl-2 pr-2">
 			<Col xs={12} md={8} lg={12}>
-				<Card className="card p-4 mb-5">
+				<Card className="card p-2 mb-5">
 					<MyForm />
 				</Card>
 			</Col>

@@ -7,9 +7,9 @@ import Link from 'next/link'
 import { Row } from 'react-bootstrap'
 
 const ContactHero = () => (
-	<div className="container pl-4 pr-4">
+	<div className="container pl-2 pr-2">
 		<Row className="mb-5 mt-5">
-			<h2 className="heading mb-0 mt-5 pl-3">Contact</h2>
+			<h2 className="heading mb-0 mt-5 pl-2">Contact</h2>
 		</Row>
 		<Row>
 			<p className="intro lead pl-3">Thank you for getting in touch! <br></br>
@@ -24,7 +24,7 @@ const ContactHero = () => (
 			.intro {
 			color: #cdc9de;
 			font-family: Bitter, serif;
-			width: 35vw;
+			width: 55vw;
 			}
 			`}</style>
 		

@@ -4,7 +4,7 @@ import { Row, Col, Card, Button } from 'react-bootstrap'
 import DesignMasonry from './DesignMasonry' //Design masonry image component
 
 const DesignBody = () => (
-	<div className="bodyContainer pl-5 pr-5">
+	<div className="bodyContainer pl-2 pr-2">
 		<Row className="pt-5 pl-5 pr-5">
 			<Col lg={12}>
 				<Card className="card p-4 mb-5">

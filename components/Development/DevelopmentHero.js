@@ -29,7 +29,7 @@ const DevelopmentHero = () => (
 			.intro {
 			color: #cdc9de;
 			font-family: Bitter, serif;
-			width: 35vw;
+			width: 55vw;
 			}
 			.contact {
 			font-family: Allerta, sans-serif;

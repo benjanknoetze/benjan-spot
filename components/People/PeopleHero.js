@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { Row } from 'react-bootstrap'
 
 const PeopleHero = () => (
-	<div className="container pl-4 pr-4">
+	<div className="container pl-2 pr-2">
 		<Row className="mb-5 mt-5">
 			<h2 className="heading mb-0 mt-5 pl-3">People</h2>
 		</Row>
@@ -30,7 +30,7 @@ const PeopleHero = () => (
 			.intro {
 			color: #cdc9de;
 			font-family: Bitter, serif;
-			width: 35vw;
+			width: 55vw;
 			}
 			.contact {
 			font-family: Allerta, sans-serif;

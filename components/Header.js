@@ -17,7 +17,7 @@ const linkStyle = {
 
 const Header = () => (
 	<Navbar expand="lg" style={navStyle}>
-		<div className="container pl-4 pr-4">
+		<div className="container pl-2 pr-2">
 			{/* Background image */}
 			{/* <Image src="background.jpg" className="background-image" /> */}
 			<Link href="/">
@@ -47,7 +47,7 @@ const Header = () => (
 				text-decoration: none !important;
 				padding: 0.7rem 1rem;
 				color: #cdc9de;
-				margin-left: 18px;
+				margin-left: 1.5vw;
 				background-color: #635598;
 				border-radius: 20px;
 				transition: 0.1s;

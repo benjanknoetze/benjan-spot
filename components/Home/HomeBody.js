@@ -3,9 +3,9 @@
 import { Row, Col, Card, Button } from 'react-bootstrap'
 
 const HomeBody = () => (
-	<div className="homeBody pl-5 pr-5">
-		<Row className="mb-5 mt-3 pl-5 pr-5">
-			<Col md={4} className="mb-5">
+	<div className="homeBody pl-2 pr-2">
+		<Row className="mb-5 mt-3 pl-2 pr-2">
+			<Col md={4} className="mt-5 mb-5">
 				<Card className="card p-4">
 					<h5 className="cardHeading">People</h5>
 					<p className="cardText mt-1 mb-2">
@@ -18,7 +18,7 @@ const HomeBody = () => (
 					</Button>
 				</Card>
 			</Col>
-			<Col md={4} className="mb-5">
+			<Col md={4} className="mt-5 mb-5">
 				<Card className="card p-4">
 					<h5 className="cardHeading">Design</h5>
 					<p className="cardText mt-1 mb-2">
@@ -30,7 +30,7 @@ const HomeBody = () => (
 					</Button>
 				</Card>
 			</Col>
-			<Col md={4} className="mb-5">
+			<Col md={4} className="mt-5 mb-5">
 				<Card className="card p-4">
 					<h5 className="cardHeading">Development</h5>
 					<p className="cardText mt-1 mb-2">
