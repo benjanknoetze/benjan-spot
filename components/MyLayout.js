@@ -1,10 +1,10 @@
 //Global settings and layout
 
-import Head from next/head;
-
 /*You can use this built-in component to append elements to the <head> element of the page. More info here: https://github.com/zeit/next.js/#populating-head 
 Notice that we add the link for the stylesheet for using React-Bootstrap components to the <Head>. */
 import Header from './Header' //Header component
+
+import Head from 'next/head'
 
 {/* Global layout */ }
 const Layout = props => (
