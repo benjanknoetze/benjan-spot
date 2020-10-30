@@ -5,14 +5,14 @@ import { Row, Col, Image } from 'react-bootstrap'
 const DesignMasonry = () => (
 	<div className="bodyContainer pl-2 pr-2">
 		<Row>
-			<Col lg={4} className="p-0 m-0">
-			<Image fluid src="bulb.jpg" className="showcaseImg p-0 m-0" alt="bulb image"></Image>
+			<Col lg={4}>
+			<Image fluid src="bulb.jpg" className="showcaseImg" alt="bulb image"></Image>
 			</Col>
-			<Col lg={4} className="p-0 m-0">
-			<Image fluid src="logo.png" className="showcaseImg p-0 m-0" alt="Zingara logo"></Image>
+			<Col lg={4}>
+			<Image fluid src="logo.png" className="showcaseImg" alt="Zingara logo"></Image>
 			</Col>
-			<Col lg={4} className="p-0 m-0">
-			<Image fluid src="alien.png" className="showcaseImg p-0 m-0" alt="Alien image"></Image>
+			<Col lg={4}>
+			<Image fluid src="alien.png" className="showcaseImg" alt="Alien image"></Image>
 			</Col>
 		</Row>
 		<style global jsx>{`

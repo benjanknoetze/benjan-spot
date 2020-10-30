@@ -67,9 +67,9 @@ export default class MyForm extends React.Component {
 	  const { status } = this.state;
 	  return (
 		<FormspreeProvider project="{contact}">
-		<h5 className="Heading pl-4 mt-3">Get in touch</h5>
+		<h5 className="Heading pl-3 mt-3">Get in touch</h5>
 		<form 
-		  className="p-4"
+		  className="p-3"
 		  onSubmit={this.submitForm}
 		  action="https://formspree.io/f/xrgoqvaq" 
 		  method="POST"
@@ -97,7 +97,7 @@ export default class MyForm extends React.Component {
 			}
 			.formInput {
 				background-color: #cdc9de;
-				width: 50%;
+				width: 75%;
 				border: none;
 				border-radius: 4px;
 			}
