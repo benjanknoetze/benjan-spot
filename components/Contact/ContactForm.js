@@ -27,10 +27,12 @@ export default class MyForm extends React.Component {
 		<input className="formInput" type="email" name="email" /> <br></br>
         <label className="formLabel mt-2">Message:</label> <br></br>
 		<input className="formInput pb-5" type="text" name="message" /> <br></br>
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button style={{borderRadius: 4, border: "none", backgroundColor: "#635598", fontFamily: "Bitter, serif", color: "white", marginTop: 15, paddingTop: 6, paddingBottom: 6, paddingLeft: 10, paddingRight: 10}}>Submit</button>}
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button id="submitButton">Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
 	  <style global jsx>{`
+			/* form button {\
+			} */
 			.Heading {
 				color: #0d0411;
 				font-family: Allerta, sans-serif;
@@ -49,8 +51,15 @@ export default class MyForm extends React.Component {
 				border: none;
 				border-radius: 4px;
 			}
-			.submitButton {
+			#submitButton {
 				width: 110px;
+				border-radius: 4px;
+				border: none; 
+				background-color: #635598;
+				font-family: Bitter, serif;
+				color: white; 
+				margin-top: 15px;
+				padding: 6px 10px; 
 			}
 			`}</style>
 	  </div>
