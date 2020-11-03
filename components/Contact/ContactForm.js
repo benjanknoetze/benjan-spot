@@ -17,7 +17,7 @@ export default class MyForm extends React.Component {
     return (
 		<div>
 	  <h5 className="Heading pl-3 mt-3">Get in touch</h5>
-      <form className="p-3"
+      <form className="p-3 contactForm"
         onSubmit={this.submitForm}
         action="https://formspree.io/f/xrgoqvaq"
         method="POST"
@@ -51,7 +51,7 @@ export default class MyForm extends React.Component {
 				border: none;
 				border-radius: 4px;
 			}
-			#submitButton {
+			.contactForm button {
 				width: 110px;
 				border-radius: 4px;
 				border: none; 

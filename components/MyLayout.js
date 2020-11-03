@@ -2,7 +2,7 @@
 
 /*You can use this built-in component to append elements to the <head> element of the page. More info here: https://github.com/zeit/next.js/#populating-head 
 Notice that we add the link for the stylesheet for using React-Bootstrap components to the <Head>. */
-import Head  from 'next/head'
+import Head from 'next/head'
 import Header from './Header' //Header component
 import { GA_TRACKING_ID } from '../lib/gtag' //Google analytics
 
@@ -28,12 +28,12 @@ const Layout = props => (
 			/>
 			{/* Global Site Tag (gtag.js) - Google Analytics */}
 			<script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+				async
+				src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+			/>
+			<script
+				dangerouslySetInnerHTML={{
+					__html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -41,8 +41,8 @@ const Layout = props => (
               page_path: window.location.pathname,
             });
           `,
-            }}
-          />
+				}}
+			/>
 		</Head>
 		<div>
 			<Header /> {/* Navigation */}
