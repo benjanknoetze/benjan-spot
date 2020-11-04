@@ -19,7 +19,7 @@ const PeopleBody = () => (
 				page and enthusiastic towards a specific goal. </p>
 					<p className="cardText mt-1 mb-2">
 						However, due to the church's attitude toward gay clergy and marriage,
-						Benjan decided that skills would better serve a different field.
+						Benjan decided that his skills would better serve a different field.
                 </p>
 				</Card>
 			</Col>

@@ -55,11 +55,17 @@ export default class MyForm extends React.Component {
 				width: 110px;
 				border-radius: 4px;
 				border: none; 
+				color: #cdc9de !important;
 				background-color: #635598;
 				font-family: Bitter, serif;
 				color: white; 
 				margin-top: 15px;
 				padding: 6px 10px; 
+			}
+			.contactForm button:hover {
+				background-color: #635598;
+				transform: scale(1.03);
+				color: white !important;
 			}
 			`}</style>
 	  </div>
