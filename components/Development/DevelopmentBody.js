@@ -1,6 +1,6 @@
 //Development page body
 
-import { Row, Col, Card, Button } from 'react-bootstrap'
+import { Row, Col, Card } from 'react-bootstrap'
 import DesignMasonry from './DevelopmentMasonry' //Design masonry image component
 
 const DevelopmentBody = () => (
