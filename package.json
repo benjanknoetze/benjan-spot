@@ -21,7 +21,8 @@
     "react-ga": "^3.2.0",
     "react-script-tag": "^1.1.2",
     "react-sizeme": "^2.6.12",
-    "react-stack-grid": "^0.7.1"
+    "react-stack-grid": "^0.7.1",
+    "sitemap": "^6.3.3"
   },
   "devDependencies": {
     "@types/node": "^14.14.2",
