@@ -19,22 +19,22 @@ const Header = () => (
 	<Navbar style={navStyle}>
 			<Link href="/">
 				<a style={linkStyle}>Benjan's Spot</a>
-			</Link>{' '}
+			</Link>
 			<Navbar.Collapse className="ml-4">
 				<Dropdown style={navStyle}>
 					<Dropdown.Toggle>
 						Skills
 					</Dropdown.Toggle>
 					<Dropdown.Menu>
-						<Dropdown.Item href="/people"><a>People</a></Dropdown.Item>{' '}
-						<Dropdown.Item href="/design"><a>Design</a></Dropdown.Item>{' '}
-						<Dropdown.Item href="/development"><a>Development</a></Dropdown.Item>{' '}
+						<Dropdown.Item href="/people"><a>People</a></Dropdown.Item>
+						<Dropdown.Item href="/design"><a>Design</a></Dropdown.Item>
+						<Dropdown.Item href="/development"><a>Development</a></Dropdown.Item>
 					</Dropdown.Menu>
 				</Dropdown>
 			</Navbar.Collapse>
 			<Link href="/contact">
 				<a style={linkStyle}>Contact</a>
-			</Link>{' '}
+			</Link>
 			<Link href="/BenjanKnoetze_CV.pdf">
 				<a className="download">CV</a>
 			</Link>
