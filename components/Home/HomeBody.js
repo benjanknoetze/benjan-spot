@@ -14,7 +14,7 @@ const HomeBody = () => (
 						challenges
                 	</p>
 					<Button href="/people" className="cardButton">
-					<a>More</a>
+					<a className="people">More</a>
 					</Button>
 				</Card>
 			</Col>
@@ -38,7 +38,7 @@ const HomeBody = () => (
 						Creative input and a personal touch are a necessity to set it
 						apart
                 	</p>
-					<Button href="/development" className="cardButton">
+					<Button href="development" className="cardButton">
 					<a>More</a>
 					</Button>
 				</Card>
