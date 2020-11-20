@@ -20,11 +20,11 @@ const Layout = props => (
 			{/* Google Fonts */}
 			<link
 				rel="stylesheet"
-				href="https://fonts.googleapis.com/css?family=Allerta"
+				href="https://fonts.googleapis.com/css?family=Allerta&display=swap"
 			/>
 			<link
 				rel="stylesheet"
-				href="https://fonts.googleapis.com/css?family=Bitter:400,700"
+				href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap"
 			/>
 			{/* Global Site Tag (gtag.js) - Google Analytics */}
 			<script
