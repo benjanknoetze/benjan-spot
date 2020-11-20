@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/people": "pages/people.js",
-  "/development": "pages/development.js",
-  "/contact": "pages/contact.js",
   "/": "pages/index.js",
-  "/design": "pages/design.js"
+  "/people": "pages/people.js"
 }

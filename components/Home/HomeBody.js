@@ -13,8 +13,8 @@ const HomeBody = () => (
 						supports and motivates, and effortlessly adapts to daily
 						challenges
                 	</p>
-					<Button href="/people" className="cardButton">
-					<a className="people">More</a>
+					<Button className="cardButton">
+					<a className="cardLink" href="/people">More about people</a>
 					</Button>
 				</Card>
 			</Col>
@@ -25,8 +25,8 @@ const HomeBody = () => (
 						Need a new perspective? Get someone with a natural inclination
 						to problem-solve and suggests a wow moment for each project
                		</p>
-					<Button href="/design"className="cardButton"> 
-					<a>More</a>
+					<Button className="cardButton"> 
+					<a className="cardLink" href="/design">More about design</a>
 					</Button>
 				</Card>
 			</Col>
@@ -38,8 +38,8 @@ const HomeBody = () => (
 						Creative input and a personal touch are a necessity to set it
 						apart
                 	</p>
-					<Button href="development" className="cardButton">
-					<a>More</a>
+					<Button className="cardButton">
+					<a className="cardLink" href="development">More about development</a>
 					</Button>
 				</Card>
 			</Col>
@@ -62,6 +62,10 @@ const HomeBody = () => (
 			.cardButton {
 				position: absolute;
 				bottom: 5%;
+			}
+			.cardLink:hover {
+				text-decoration: none;
+				color: white;
 			}
 			`}</style>
 	</div>
