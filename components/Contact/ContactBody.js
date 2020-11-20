@@ -1,6 +1,6 @@
 //Contact page body
 
-import { Row, Col, Card, Button } from 'react-bootstrap'
+import { Row, Col, Card} from 'react-bootstrap'
 import MyForm from './ContactForm' //Contact form component
 
 const ContactBody = () => (

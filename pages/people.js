@@ -1,5 +1,4 @@
 //Import the Link API to support client-side navigation
-import Link from 'next/link'
 import Layout from '../components/MyLayout'
 import PeopleHero from '../components/People/PeopleHero'
 import PeopleBody from '../components/People/PeopleBody'

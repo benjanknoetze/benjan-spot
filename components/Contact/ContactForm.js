@@ -1,7 +1,6 @@
 //Contact page form
+
 import React from "react";
-import { Button } from 'react-bootstrap'
-import { inherits } from "util";
 
 export default class MyForm extends React.Component {
   constructor(props) {
