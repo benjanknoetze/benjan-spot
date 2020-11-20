@@ -14,11 +14,11 @@ const ContactHero = () => (
 		</Row>
 		<style jsx>{`
 			.heading {
-			color: #cdc9de;
+			color: #dddbe6;
 			font-family: Bitter, serif;
 			}
 			.intro {
-			color: #cdc9de;
+			color: #dddbe6;
 			font-family: Bitter, serif;
 			width: 75vw;
 			}

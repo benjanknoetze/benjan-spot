@@ -57,7 +57,7 @@ export default class MyForm extends React.Component {
 				color: #cdc9de !important;
 				background-color: #635598;
 				font-family: Bitter, serif;
-				color: white; 
+				color: #dddbe6; 
 				margin-top: 15px;
 				padding: 6px 10px; 
 			}

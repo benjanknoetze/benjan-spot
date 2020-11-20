@@ -9,7 +9,7 @@ const navStyle = {
 }
 
 const linkStyle = {
-	color: "#cdc9de",
+	color: "#dddbe6",
 	textDecoration: "none",
 	fontSize: 19,
 	padding: 10,
@@ -43,7 +43,7 @@ const Header = () => (
 				float: right;
 				text-decoration: none !important;
 				padding: 0.7rem 1rem;
-				color: #cdc9de;
+				color: #dddbe6;
 				background-color: #635598;
 				border-radius: 20px;
 				transition: 0.1s;

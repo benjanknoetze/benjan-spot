@@ -21,11 +21,11 @@ const PeopleHero = () => (
 		</Row>
 		<style jsx>{`
 			.heading {
-			color: #cdc9de;
+			color: #dddbe6;
 			font-family: Bitter, serif;
 			}
 			.intro {
-			color: #cdc9de;
+			color: #dddbe6;
 			font-family: Bitter, serif;
 			width: 75vw;
 			}
@@ -34,7 +34,7 @@ const PeopleHero = () => (
 	        font-weight: 800;
 			text-decoration: none;
 			padding: 0.7rem 1rem;
-			color: #cdc9de;
+			color: #dddbe6;
 			background-color: #635598;
 			border-radius: 20px;
 			transition: 0.1s;
