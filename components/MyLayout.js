@@ -10,6 +10,9 @@ import { GA_TRACKING_ID } from '../lib/gtag' //Google analytics
 const Layout = props => (
 	<div>
 		<Head>
+		<meta name="description"           
+			content="Benjan Knoetze's bio website with links to his CV, portfolio (Behance)
+			and GitHub profile with a contact page where people can get in touch."/>
 			<meta charSet="utf-8" />
 			<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			{/* Bootstrap */}
