@@ -6,6 +6,7 @@ import PeopleBody from '../components/People/PeopleBody'
 //People page
 export default () => (
   <Layout>
+    <title>People page</title>
     <PeopleHero/>
     <PeopleBody/>
   </Layout>

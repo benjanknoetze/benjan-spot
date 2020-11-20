@@ -6,6 +6,7 @@ import ContactBody from '../components/Contact/ContactBody'
 
 export default () => (
   <Layout>
+    <title>Contact page</title>
     <ContactHero />
     <ContactBody />
   </Layout>
