@@ -12,10 +12,9 @@ const DesignHero = () => (
 			<h2 className="heading mb-0 mt-5 pl-3">Design</h2>
 		</Row>
 		<Row>
-			<p className="intro lead pl-3">Having a team member who can work with 
-			intricate systems and frameworks is helpful. 
-			But people are complicated too! Talk to someone who has 
-			experience working with a diverse group of individuals and groups. </p>
+			<p className="intro lead pl-3">Need a new perspective? <br></br>
+			Talk to someone who will help you breathe life into 
+			old projects and set new ones apart. </p>
 		</Row>
 		<Row className="mb-5 justify-content-end">
 			<Link href="/contact">
